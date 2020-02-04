@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/producthunt-app-redesign/static/css/main.2d1cf961.chunk.css",
+    "main.js": "/producthunt-app-redesign/static/js/main.ed16a4ca.chunk.js",
+    "main.js.map": "/producthunt-app-redesign/static/js/main.ed16a4ca.chunk.js.map",
+    "runtime-main.js": "/producthunt-app-redesign/static/js/runtime-main.ca4d14b5.js",
+    "runtime-main.js.map": "/producthunt-app-redesign/static/js/runtime-main.ca4d14b5.js.map",
+    "static/js/2.b9d62f91.chunk.js": "/producthunt-app-redesign/static/js/2.b9d62f91.chunk.js",
+    "static/js/2.b9d62f91.chunk.js.map": "/producthunt-app-redesign/static/js/2.b9d62f91.chunk.js.map",
+    "index.html": "/producthunt-app-redesign/index.html",
+    "precache-manifest.414c6a9aec8a4d4fc65aae6c31d3b4e6.js": "/producthunt-app-redesign/precache-manifest.414c6a9aec8a4d4fc65aae6c31d3b4e6.js",
+    "service-worker.js": "/producthunt-app-redesign/service-worker.js",
+    "static/css/main.2d1cf961.chunk.css.map": "/producthunt-app-redesign/static/css/main.2d1cf961.chunk.css.map",
+    "static/js/2.b9d62f91.chunk.js.LICENSE": "/producthunt-app-redesign/static/js/2.b9d62f91.chunk.js.LICENSE",
+    "static/media/proHunt.jpeg": "/producthunt-app-redesign/static/media/proHunt.183b2125.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca4d14b5.js",
+    "static/js/2.b9d62f91.chunk.js",
+    "static/css/main.2d1cf961.chunk.css",
+    "static/js/main.ed16a4ca.chunk.js"
+  ]
+}
