@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76a1a00c5a7a4066820d27b488887b61",
+    "revision": "15b0228d495fb8df115342a854088fa4",
     "url": "/producthunt-app-redesign/index.html"
   },
   {
-    "revision": "157e2cfe7d820f3399f2",
+    "revision": "7296e6adce1ff711052c",
     "url": "/producthunt-app-redesign/static/css/main.2d1cf961.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/producthunt-app-redesign/static/js/2.b9d62f91.chunk.js.LICENSE"
   },
   {
-    "revision": "157e2cfe7d820f3399f2",
-    "url": "/producthunt-app-redesign/static/js/main.fc687984.chunk.js"
+    "revision": "7296e6adce1ff711052c",
+    "url": "/producthunt-app-redesign/static/js/main.5b1d597d.chunk.js"
   },
   {
     "revision": "3e436e802c1f5e9455cd",
