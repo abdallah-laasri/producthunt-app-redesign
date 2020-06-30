@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15b0228d495fb8df115342a854088fa4",
+    "revision": "5d494600a3e57adf9c75b9920e59f6d4",
     "url": "/producthunt-app-redesign/index.html"
   },
   {
-    "revision": "7296e6adce1ff711052c",
+    "revision": "67b3646b9029c16343ce",
     "url": "/producthunt-app-redesign/static/css/main.2d1cf961.chunk.css"
   },
   {
-    "revision": "1bd29ea418d5d9194670",
-    "url": "/producthunt-app-redesign/static/js/2.b9d62f91.chunk.js"
+    "revision": "1e821cb948f35758a7b5",
+    "url": "/producthunt-app-redesign/static/js/2.8ebf2c3d.chunk.js"
   },
   {
     "revision": "fd228f9b9a68ce6b23a6cf8b0a38a0e3",
-    "url": "/producthunt-app-redesign/static/js/2.b9d62f91.chunk.js.LICENSE"
+    "url": "/producthunt-app-redesign/static/js/2.8ebf2c3d.chunk.js.LICENSE"
   },
   {
-    "revision": "7296e6adce1ff711052c",
-    "url": "/producthunt-app-redesign/static/js/main.5b1d597d.chunk.js"
+    "revision": "67b3646b9029c16343ce",
+    "url": "/producthunt-app-redesign/static/js/main.b19f733f.chunk.js"
   },
   {
     "revision": "3e436e802c1f5e9455cd",
