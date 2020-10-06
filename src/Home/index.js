@@ -45,9 +45,39 @@ class Home extends Component {
       this.props.getNewData(data.data.posts);
     });
   };
+
+  authenticationVerification = () => {
+    // localStorage.setItem("jwt", document.cookie.split("=")[1]);
+    document.cookie.includes("jwt") &&
+      localStorage.setItem(
+        "jwt",
+        document.cookie
+          .split(";")
+          .filter((i) => i.includes("jwt"))[0]
+          .split("=")[1]
+      );
+    const token = localStorage.getItem("jwt");
+    if (token) {
+      fetch("http://localhost:5000/verify", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `bearer ${token}`,
+        },
+      })
+        .then((res) => res.json())
+        .then((user) => this.props.getUser(user));
+    } else {
+      console.log("no token");
+    }
+  };
+
   componentDidMount() {
-    this.props.dayCount === 1 && this.getDayPosts(0);
+    this.props.isFirstLoad && this.getDayPosts(0);
     this.props.resetCounter();
+    this.props.isNotFirstLoad();
+
+    this.authenticationVerification();
   }
   render() {
     const { data, dayCount } = this.props;

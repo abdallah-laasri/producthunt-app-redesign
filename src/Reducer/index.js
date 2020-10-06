@@ -1,11 +1,13 @@
 const initialState = {
   data: [],
   dayCount: 1,
+  isFirstLoad: true,
   MorePosts: [],
   product: [],
   comments: [],
   replies: [],
   counter: 0,
+  user: null,
 };
 
 const reducer = (state = initialState, action) => {
@@ -25,6 +27,11 @@ const reducer = (state = initialState, action) => {
               }
             : item
         ),
+      };
+    case "is not first load":
+      return {
+        ...state,
+        isFirstLoad: false,
       };
     case "get product by id":
       return {
@@ -49,6 +56,8 @@ const reducer = (state = initialState, action) => {
       return { ...state, counter: state.counter - 1 };
     case "resetCounter":
       return { ...state, counter: 0 };
+    case "get user":
+      return { ...state, user: action.user };
     default:
       return state;
   }

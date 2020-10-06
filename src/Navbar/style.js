@@ -74,15 +74,49 @@ export const Sign = styled.div`
   align-items: center;
 `;
 export const SignIn = styled.button`
+  display: ${(props) => (props.signed ? "none" : "block")};
   padding: 8px 12px;
   border: 1px solid #6f6f6f;
   border-radius: 5px;
   margin-left: 12px;
   background-color: #fff;
   cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: small;
 `;
 export const SignUp = styled(SignIn)`
   background-color: #da5431;
   color: #fff;
   border-color: transparent;
+  /* text-decoration: none; */
+  /* font-weight: 700; */
+  /* font-size: small; */
+`;
+export const User = styled.div`
+  display: ${(props) => (props.signed ? "flex" : "none")};
+  min-width: 40px;
+  min-height: 40px;
+  border: none;
+  background: #455a67;
+  color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+`;
+export const UserName = styled.span`
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+`;
+export const Logout = styled.a`
+  display: ${(props) => (props.signed ? "block" : "none")};
+  min-width: fit-content;
+  text-decoration: none;
+  color: #da5431;
+  font-size: 15px;
+  margin-left: 12px;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 4px;
 `;

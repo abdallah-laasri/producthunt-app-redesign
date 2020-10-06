@@ -22,6 +22,11 @@ export function morePosts(moreposts, index) {
     index,
   };
 }
+export function isNotFirstLoad() {
+  return {
+    type: "is not first load",
+  };
+}
 export function getProductById(id, listId) {
   return {
     type: "get product by id",
@@ -54,5 +59,11 @@ export function decrementCounter() {
 export function resetCounter() {
   return {
     type: "resetCounter",
+  };
+}
+export function getUser(user) {
+  return {
+    type: "get user",
+    user,
   };
 }

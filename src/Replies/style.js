@@ -9,7 +9,7 @@ export const Img = styled.img`
   width: 30px;
   height: 30px;
   border: none;
-  margin-right: 20px;
+  margin: 10px 20px 10px 10px;
   border-radius: 50%;
 `;
 export const H1 = styled.h1`

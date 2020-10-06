@@ -13,6 +13,8 @@ import {
   Img,
   Titles,
   Discussion,
+  MediaRow,
+  Span,
 } from "./style";
 import { withRouter } from "react-router-dom";
 import ReactPlayer from "react-player";
@@ -57,14 +59,13 @@ class Product extends Component {
   };
 
   render() {
-    const { productData, comments, counter, testvalue } = this.props;
+    const { productData, comments, counter } = this.props;
     let productMedia = [];
-    // console.log(this.props.match.params.testvalue);
     productData.length > 0 &&
-      (productData[0].node.media = productData[0].node.media.filter(
+      (productMedia = productData[0].node.media.filter(
         (item) => item.url !== productData[0].node.thumbnail.url
       ));
-    productData.length > 0 && (productMedia = productData[0].node.media);
+    // productData.length > 0 && (productMedia = productData[0].node.media);
     return (
       <Container>
         <Media>
@@ -89,6 +90,13 @@ class Product extends Component {
               />
             ))}
         </Media>
+        <MediaRow>
+          {productMedia.map((item, index) => (
+            <Span key={index}>
+              <img src={item.url} alt='' style={{ height: "100%", width: "100%" }} />
+            </Span>
+          ))}
+        </MediaRow>
         {productData.length > 0 && (
           <Body>
             <Header>

@@ -14,10 +14,10 @@ export const Container = styled.div`
 export const Media = styled.div`
   padding: 20px;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   height: 500px;
   position: relative;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,4 +92,17 @@ export const Discussion = styled.p`
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
+`;
+export const MediaRow = styled.div`
+  display: flex;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 0 0 5px 5px;
+  background: white;
+`;
+export const Span = styled.span`
+  height: 55px;
+  width: 55px;
+  margin-right: 5px;
+  border: 1px solid #d0bdbd;
 `;
