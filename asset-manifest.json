@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/producthunt-app-redesign/static/css/main.2d1cf961.chunk.css",
-    "main.js": "/producthunt-app-redesign/static/js/main.a9dac097.chunk.js",
-    "main.js.map": "/producthunt-app-redesign/static/js/main.a9dac097.chunk.js.map",
+    "main.css": "/producthunt-app-redesign/static/css/main.cf237b0c.chunk.css",
+    "main.js": "/producthunt-app-redesign/static/js/main.e95eff57.chunk.js",
+    "main.js.map": "/producthunt-app-redesign/static/js/main.e95eff57.chunk.js.map",
     "runtime-main.js": "/producthunt-app-redesign/static/js/runtime-main.ca4d14b5.js",
     "runtime-main.js.map": "/producthunt-app-redesign/static/js/runtime-main.ca4d14b5.js.map",
-    "static/js/2.aa584eeb.chunk.js": "/producthunt-app-redesign/static/js/2.aa584eeb.chunk.js",
-    "static/js/2.aa584eeb.chunk.js.map": "/producthunt-app-redesign/static/js/2.aa584eeb.chunk.js.map",
+    "static/js/2.860860a3.chunk.js": "/producthunt-app-redesign/static/js/2.860860a3.chunk.js",
+    "static/js/2.860860a3.chunk.js.map": "/producthunt-app-redesign/static/js/2.860860a3.chunk.js.map",
     "index.html": "/producthunt-app-redesign/index.html",
-    "precache-manifest.605ccd4aec5653987726e1d8b5204d82.js": "/producthunt-app-redesign/precache-manifest.605ccd4aec5653987726e1d8b5204d82.js",
+    "precache-manifest.d1f233ca22e7d43e70c8fde484168afe.js": "/producthunt-app-redesign/precache-manifest.d1f233ca22e7d43e70c8fde484168afe.js",
     "service-worker.js": "/producthunt-app-redesign/service-worker.js",
-    "static/css/main.2d1cf961.chunk.css.map": "/producthunt-app-redesign/static/css/main.2d1cf961.chunk.css.map",
-    "static/js/2.aa584eeb.chunk.js.LICENSE": "/producthunt-app-redesign/static/js/2.aa584eeb.chunk.js.LICENSE",
+    "static/css/main.cf237b0c.chunk.css.map": "/producthunt-app-redesign/static/css/main.cf237b0c.chunk.css.map",
+    "static/js/2.860860a3.chunk.js.LICENSE": "/producthunt-app-redesign/static/js/2.860860a3.chunk.js.LICENSE",
     "static/media/proHunt.jpeg": "/producthunt-app-redesign/static/media/proHunt.183b2125.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca4d14b5.js",
-    "static/js/2.aa584eeb.chunk.js",
-    "static/css/main.2d1cf961.chunk.css",
-    "static/js/main.a9dac097.chunk.js"
+    "static/js/2.860860a3.chunk.js",
+    "static/css/main.cf237b0c.chunk.css",
+    "static/js/main.e95eff57.chunk.js"
   ]
 }
